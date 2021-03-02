@@ -1,0 +1,40 @@
+programa
+{
+//6. Faça um programa que receba dois números inteiros e gere os números inteiros que 
+//estão no intervalo compreendido por eles.
+	
+	funcao inicio()
+	{
+        inteiro a =0 
+        inteiro b =0
+        inteiro c =0
+        inteiro d =0
+
+        escreva("digite um valor: ")
+        leia(a)
+
+        escreva("digite outro valor: ")
+        leia(b)
+
+        se (a<b){
+        a++
+        b--
+        c= a
+        d= b
+        }
+
+        se(a>b){   
+        a--
+        b++
+        c=b
+        d=a
+        }
+        
+	enquanto(c <= d){
+	escreva(c + " ")	
+	c = d + 1
+	}
+	
+	}
+	   
+}
