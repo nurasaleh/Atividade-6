@@ -1,0 +1,10 @@
+programa
+{
+//b. Use a estrutura de repetição “para”;
+	
+	funcao inicio()
+	{
+	     para (inteiro b= 1; b <= 20; b++)
+		escreva(b + " \n ")
+	}
+}
