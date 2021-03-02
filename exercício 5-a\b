@@ -1,0 +1,23 @@
+programa
+{
+//5. Faça um programa, utilizando “para”, que:
+//a) Peça para o usuário inserir um número N;
+
+	funcao inicio()
+	{
+	   inteiro n= 0
+
+	   escreva("digite um numero " )
+	   leia(n)
+
+//b) Escreva na tela todos os números de 1 até N e pule 3 linhas;
+
+        para(inteiro b= 1; b <= n; b++)
+	   escreva(b+ "\n\n\n")
+
+    
+		
+	}
+	
+	
+}
