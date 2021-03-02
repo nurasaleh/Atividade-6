@@ -1,0 +1,10 @@
+programa
+{
+//3. Faça uma cópia do exercício anterior e o modifique o para mostrar os números um ao lado do outro.
+	
+	funcao inicio()
+	{
+         para(inteiro n= 20 ; n >= 1 ; n--)	
+		escreva(n+ " ")
+	}
+}
