@@ -1,0 +1,21 @@
+programa
+{
+//12. Faça um programa que leia 5 números e informe o maior número.
+
+	funcao inicio()
+	{
+		inteiro numero = 0
+		inteiro aux = 0
+		
+		para (inteiro a = 0; a <5; a ++) {
+		    escreva ("escreva um valor:")
+		    leia (numero)
+		    
+		    se (aux <numero) {
+		        aux = numero
+		    }
+		}
+		
+		escreva (" o maior número é:", aux )
+	}
+}
