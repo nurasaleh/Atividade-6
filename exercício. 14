@@ -1,0 +1,20 @@
+programa {
+	funcao inicio() {
+		
+//14. Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número
+//inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada.
+		
+		inteiro n = 0
+		
+		escreva("digite um valor para aparecer sua tabuada: ")
+		leia(n)
+		escreva("tabuada do ", n, "\n")
+		
+		para(inteiro a = 0; a<= 10; a++){
+		    escreva(a,"x",n,"=", a
+		    *n,"\n")
+		}
+		
+		
+	}
+}
