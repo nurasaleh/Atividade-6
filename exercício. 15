@@ -1,0 +1,25 @@
+programa
+{
+//15. Faça um programa que peça dois números, base e expoente, calcule e mostre o
+//primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem.
+	
+	funcao inicio()
+	{
+		inteiro a, b, c, d
+
+		escreva("escreva um número para ser a base de sua potência: ")
+		leia(a)
+
+		escreva("agora escreva um outro número para ser seu expoente: ")
+		leia(b)
+		
+          d=a
+          c=1
+
+          para (c = 1; c <= b; c ++) {
+		    a = a * d
+          }
+          escreva("o resultado da potência " , d , " elevado a " , b , " é: " ,a ) 
+	    
+	}
+}
