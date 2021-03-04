@@ -1,0 +1,23 @@
+programa
+{
+//b. Faça um programa capaz de gerar a série até o n−ésimo termo.
+	
+	funcao inicio()
+	{
+		inteiro a=1 
+		inteiro b=0
+		inteiro c=0
+		inteiro d
+		inteiro n
+
+		escreva("você quer que a série tenha quantos termos? ")
+		leia(n)
+
+		para (d = 1; d <= n; d ++) {
+		    escreva (a, ", ")
+		    c = a
+		    a = a + b
+		    b = c
+		}
+	}
+}
