@@ -1,0 +1,21 @@
+programa
+{
+//18. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário.
+	
+	funcao inicio()
+	{
+		inteiro n=0
+		inteiro
+ a=1
+
+		escreva("escreva um número: ")
+		leia(n)
+
+		 escreva (n, "! =") 
+		 para(inteiro b= n; b>1; b--){
+		 	escreva(b, ".")
+		       a = a * b
+		 }
+		 escreva ("1 =", a)
+	}
+}
